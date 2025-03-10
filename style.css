@@ -1,0 +1,98 @@
+body {
+    background-color: #FAD4E0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #A067C3;
+}
+header {
+    background-color: #E6C7F4;
+    padding: 20px; /* Even padding */
+    color: #A067C3;
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers content horizontally */
+    border-radius: 10px;
+}
+
+.icon {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; /* Adds space between the image and text */
+    border-radius: 30px;
+}
+.box {
+    background-color: #E6C7F4;
+    padding: 10px;
+    color: #5A3E36;
+    width: 500px;
+    height: 200px;
+    display: flex; /* Enables Flexbox inside */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Stacks .box elements vertically */
+    gap: 10px; /* Adds space between boxes */
+    align-items: center; /* Centers the divs horizontally */
+}
+
+.mainPageIcons{
+    width: 100px;
+    height: auto;
+    border-color: #d583fc;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  }
+  .box:hover {
+      transform: scale(0.97); /* Scale the element when hovering */
+    
+  }
+  .box2 {
+    background-color: #E6C7F4;
+    
+    color: #5A3E36;
+    width: 500px;
+    height: 1000px;
+    
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+  
+    /* Center the div */
+    margin: auto;
+    height: 100%;
+   width: fit-content;
+  }
+h2{
+    text-decoration: underline;
+}
+ul {
+    list-style-position: inside; /* Moves bullets inside the content */
+    padding-left: 0; /* Removes extra spacing */
+    text-align: center; /* Centers text */
+}
+ol {
+    list-style-position: inside; /* Moves bullets inside the content */
+    padding-left: 0; /* Removes extra spacing */
+    text-align: center; /* Centers text */
+}
+
+  
+
+
+  
