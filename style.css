@@ -59,7 +59,9 @@ header {
   }
   .box:hover {
       transform: scale(0.97); /* Scale the element when hovering */
-    
+      border-color: #e1a1ff;
+      border-width: 2px;
+      border-style: solid;
   }
   .box2 {
     background-color: #E6C7F4;
@@ -91,6 +93,46 @@ ol {
     padding-left: 0; /* Removes extra spacing */
     text-align: center; /* Centers text */
 }
+footer {
+    background-color: #E6C7F4;
+    padding: 20px; /* Even padding */
+    color: #A067C3;
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers content horizontally */
+    border-radius: 10px;
+    
+    height: 100px;
+    font-size: 30px;
+    width: 100%; /* Makes it take full width */
+    margin: 0; /* Ensures no margin around the footer */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+a{
+   font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #E6C7F4; 
+    color: #5A3E36;
+}
+a {
+    display: inline-block; /* Ensures transform works properly */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #E6C7F4; 
+    color: #5A3E36;
+    border: 2px solid #e1a1ff;
+    transform: scale(1.1); /* Shrinking effect */
+}
+
+
+
+
 
   
 
