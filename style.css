@@ -23,6 +23,7 @@ header {
     border-radius: 30px;
 }
 .box {
+    animation: optionIn 1.5s ease-in-out;
     background-color: #E6C7F4;
     padding: 10px;
     color: #5A3E36;
@@ -34,6 +35,13 @@ header {
     border-radius: 15px;
     transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
   
+}
+@keyframes optionIn{
+    0% { opacity: 0; }
+    from { transform: translateX(0);}
+    
+    from { transform: translateX(50px);}
+    
 }
 .container {
     display: flex;
